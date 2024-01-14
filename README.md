@@ -1,10 +1,18 @@
 # Ília - Desafio Técnico
 
-## Solution
+Solution in `node.js`
 
-To start the server run `npm run start`
-To run the API tests run `npm run test`
+To start the server `npm run start`
 
-Enviroment variables should be saved in a `.env` file, an example of this file is located at `env.example`. However no variables are required in order to run the project or its tests.
+To run the tests `npm run test`
 
-If no `DATABASE_URI` is provided a temporary in-memory mongodb instance is created.
+```
+Test Suites: 1 passed, 1 total
+Tests:       9 passed, 9 total
+Snapshots:   0 total
+Time:        0.558 s, estimated 1 s
+```
+
+Tests cover all the API cases provided in the Swagger API docs.
+
+No enviroment variables are required to run the project or its tests. If no `DATABASE_URI` is provided a temporary in-memory mongodb instance is created. If no `PORT` is provided, port 80 will be used.

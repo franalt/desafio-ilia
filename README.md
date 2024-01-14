@@ -1,6 +1,6 @@
 # Ília - Desafio Técnico
 
-Solution in `node.js`
+Solution in `node.js` by `Franco Altuna` email `franco.altuna@gmail.com`
 
 To start the server `npm run start`
 
